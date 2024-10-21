@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Primer Formulario</h1>
+    </header>
+    <main>
+        <form action="/" method="get">
+            <label for="name">Nombre</label>
+            <input type="text" name="nombre" required>
+        
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" required>
+        
+            <label for="mail">Correo electrónico</label>
+            <input type="email" name="mail" required>
+
+            <label for="mail">Mensaje</label>
+            <textarea rows="3" cols="50" placeholder="Escribe tu mensaje aquí..." maxlength="200"></textarea>
+
+            <input type="submit" value="Registrarse">
+
+        </form>
+    </main>
+</body>
+</html>
